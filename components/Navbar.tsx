@@ -3,11 +3,11 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <header className='w-full bg-white py-4 md:py-[30px] px-4 sm:px-8 md:px-5 flex justify-between items-center'>
-            <nav className='flex w-full screen-max-width'>
+        <header className='w-full bg-white py-4 sm:py-[28px] lg:py-[23px] px-4 sm:px-8 md:px-4 lg:px-6 flex justify-between items-center'>
+            <nav className='flex gap-4 w-full screen-max-width'>
                 <img src="/images/ikea.svg" alt="Ikea" width={88.64} height={36} />
 
-                <div className='hidden lg:flex flex-1 justify-center max-sm:hidden mt-5'>
+                <div className='hidden lg:flex flex-1 max-sm:hidden mt-4'>
                     {navLists.map((nav) => (
                         <div key={nav} className='px-5 text-sm cursor-pointer text-[#111111] text-[16px] hover:text-black hover:font-bold transition-all'>
                             {nav}
@@ -19,7 +19,7 @@ const Navbar = () => {
                     <i className="fa-solid fa-bars text-[18px] "></i>
                 </div>
 
-                <button className="relative hidden lg:flex items-center bg-[#ffdb00] text-[#111111] opacity-0 pr-[.6rem] pl-[.85rem] py-[.5rem] rounded-[8px] shadow-md cursor-pointer transition">
+                <button className="relative hidden lg:flex items-center bg-[#ffdb00] text-[#111111] pr-[.6rem] pl-[.85rem] py-[.4rem] outline-0 opacity-0 rounded-[8px] shadow-md cursor-pointer transition">
                     <span className='flex items-center gap-5 pr-4'>
                         <span>
                             Go shopping: <span className="font-bold">IKEA.pr</span> <span>(es)</span>
