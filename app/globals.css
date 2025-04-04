@@ -33,7 +33,7 @@ body {
 }
 
 .common-padding-x {
-  @apply sm:px-10 md:px-6
+  @apply sm:px-10 md:px-4 lg:px-6
 }
 
 .screen-max-width {
