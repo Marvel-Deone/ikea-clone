@@ -10,9 +10,11 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -22,19 +24,23 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Noto Sans, Roboto, Open Sans, system-ui, "Inter", sans-serif !important;
 }
-
 
 .common-padding {
   @apply sm:py-32 py-20 sm:px-10 px-5
+}
+
+.common-padding-x {
+  @apply sm:px-10 md:px-6
 }
 
 .screen-max-width {
   margin-inline-start: auto;
   margin-inline-end: auto;
   position: relative;
-  max-width: 1120px;
+  max-width: 1390px;
 }
 
 .btn_action::before {
