@@ -8,7 +8,7 @@ const ProductDisplay = () => {
           {/* 1/2 */}
           <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[288px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
             <div className='absolute'>
-              <img src="/images/story_behind_collection.AVIF" alt="story behind collections" className='w-full h-full xl:h-[686px] object-cover' />
+              <img src="/images/story_behind_collection.jpg" alt="story behind collections" className='w-full h-full xl:h-[686px] object-cover' />
             </div>
             <div className='absolute bottom-0 right-0 left-0 h-[100px] md:h-[170px] flex lg:px-3 text-white'>
               {/* Blur effect using a pseudo-element */}
@@ -68,7 +68,7 @@ const ProductDisplay = () => {
           {/* 2/2 */}
           <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[288px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
             <div className='absolute'>
-              <img src="/images/natural_beuaty_sweden.AVIF" alt="story behind collections" className='w-full h-full object-cover' />
+              <img src="/images/natural_beauty_sweden.avif" alt="story behind collections" className='w-full h-full object-cover' />
             </div>
             <div className='absolute bottom-0 right-0 left-0 h-[100px] md:h-[170px] flex lg:px-3 text-white'>
               {/* Blur effect using a pseudo-element */}
