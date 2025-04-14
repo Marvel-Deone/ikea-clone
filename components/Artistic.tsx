@@ -17,22 +17,7 @@ const Artistic = () => {
                     <div className="w-full md:w-[72%] xl:w-[78%] flex-1 flex justify-end items-center pb-20 md:pr-10 xl:pr-14 md:py-24 md:mt-[5rem] lg:mt-[4rem]">
                         <img src="/images/artistic_inspiration.AVIF" alt="story behind collections" className='h-[212px] md:h-[291px] lg:h-[389px] xl:h-[540px] rounded-[.5rem] mb-20' />
                     </div>
-                {/* </div> */}
-                {/* <div className='flex justify-center'>
-                    <div id="hero-arrow" className="flex justify-between items-center mt-2 translate-x-[-5rem] group-hover:px-2 group-hover:translate-0 transition-all duration-400 ease-in-out">
-                        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" className="svelte-mkzi11 left rotate-[180deg]"><path fill="currentColor" fillRule="evenodd" clipRule="evenodd" d="M4,12l8,8,1.41-1.41L7.83,13H20V11H7.83l5.59-5.59L12,4Z"></path></svg>
-                    </div>
-                    <div id="hero-text" className="xl:w-[550px] flex flex-col justify-center gap-1 xl:gap-2 pb-1 lg:pb-2 transition-all duration-400 ease-out  group-hover:translate-0">
-                        <span className='font-medium text-[12px] md:text-[1rem]'>Style report</span>
-                        <h2 className='text-[20px] md:text-[25px] xl:text-[36px] font-bold sm:-mt-1 lg:-mt-2 leading-7 xl:leading-11'>Artistic inspiration for the season! </h2>
-                    </div>
-                </div> */}
-                {/* <div className='w-[200rem] h-full bg-red-400'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo est molestias dolore debitis magni aperiam ratione quidem, excepturi repellendus, nostrum praesentium, dignissimos in aspernatur maiores vel explicabo. A, porro debitis?
-                    <img src="/images/artistic_inspiration.AVIF" alt="story behind collections" className='xl:w-[855px] h-[540px] rounded-[.5rem] mb-20' />
-                </div> */}
             </div>
-            {/* djjdjjdjkjdknnjk Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate incidunt laudantium, nihil laboriosam aut modi, reprehenderit saepe, hic magni ipsa provident architecto ex. Fugit laudantium ad autem illo mollitia odit. */}
         </section>
     )
 }
