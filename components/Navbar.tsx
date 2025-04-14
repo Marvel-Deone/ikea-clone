@@ -3,11 +3,11 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <header className='w-full bg-white py-4 sm:py-[28px] lg:py-[23px] px-4 sm:px-8 md:px-4 lg:px-6 flex justify-between items-center'>
+        <header className='w-full bg-white py-4 sm:py-[28px] xl:py-[23px] px-4 sm:px-8 md:px-4 xl:px-6 flex justify-between items-center'>
             <nav className='flex gap-4 w-full screen-max-width'>
                 <img src="/images/ikea.svg" alt="Ikea" width={88.64} height={36} />
 
-                <div className='hidden lg:flex flex-1 max-sm:hidden mt-4'>
+                <div className='hidden xl:flex flex-1 max-sm:hidden mt-4'>
                     {navLists.map((nav) => (
                         <div key={nav} className='px-5 text-sm cursor-pointer text-[#111111] text-[16px] hover:text-black hover:font-bold transition-all'>
                             {nav}
@@ -15,11 +15,11 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                <div className="flex w-full lg:hidden justify-end items-center">
+                <div className="flex w-full xl:hidden justify-end items-center">
                     <i className="fa-solid fa-bars text-[18px] "></i>
                 </div>
 
-                <button className="relative hidden lg:flex items-center bg-[#ffdb00] text-[#111111] pr-[.6rem] pl-[.85rem] py-[.4rem] outline-0 opacity-0 rounded-[8px] shadow-md cursor-pointer transition">
+                <button className="relative hidden xl:flex items-center bg-[#ffdb00] text-[#111111] pr-[.6rem] pl-[.85rem] py-[.4rem] outline-0 opacity-0 rounded-[8px] shadow-md cursor-pointer transition">
                     <span className='flex items-center gap-5 pr-4'>
                         <span>
                             Go shopping: <span className="font-bold">IKEA.pr</span> <span>(es)</span>
