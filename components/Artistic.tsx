@@ -15,7 +15,7 @@ const Artistic = () => {
                         </div>
                     </div>
                     <div className="w-full md:w-[72%] xl:w-[78%] flex-1 flex justify-end items-center pb-20 md:pr-10 xl:pr-14 md:py-24 md:mt-[5rem] lg:mt-[4rem]">
-                        <img src="/images/artistic_inspiration.AVIF" alt="story behind collections" className='h-[212px] md:h-[291px] lg:h-[389px] xl:h-[540px] rounded-[.5rem] mb-20' />
+                        <img src="/images/artistic_inspiration.avif" alt="story behind collections" className='h-[212px] md:h-[291px] lg:h-[389px] xl:h-[540px] rounded-[.5rem] mb-20' />
                     </div>
             </div>
         </section>

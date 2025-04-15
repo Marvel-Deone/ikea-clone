@@ -1,4 +1,3 @@
-
 const ProductDisplay = () => {
   return (
     <section className='common-padding-xy'>
