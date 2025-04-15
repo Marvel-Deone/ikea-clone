@@ -5,28 +5,30 @@ import gsap from "gsap";
 import { useEffect, useState } from "react";
 
 const Hero = () => {
-    const [shoppingpy, setShoppingpy] = useState('2rem');
-    const [shoppingHeight, setShoppingHeight] = useState('200px');
-
+    const [shoppingpy, setShoppingpy] = useState<boolean>(false);
+    const [shoppingHeight, setShoppingHeight] = useState<boolean>(false);
+    const heightClass = shoppingHeight ? 'h-full' : 'h-[200px]';
+    const paddingClass = shoppingpy ? 'py-[8rem]' : 'py-[2rem]';
+    
     useEffect(() => {
         const handleScroll = () => {
             const scrollY = window.scrollY;
             if (scrollY > 8) {
-                setShoppingHeight('full');
-                
-                setShoppingpy('8rem');
+                setShoppingHeight(true);
+
+                setShoppingpy(true);
             }
             // else {
-                //     setShoppingHeight('200px');
-                //     setShoppingpy('2rem');
-                // }
-            };
-            
-            window.addEventListener('scroll', handleScroll);
-            
-            // Run once to set initial state
-            handleScroll();
-            console.log(scrollY, shoppingpy);
+            //     setShoppingHeight('200px');
+            //     setShoppingpy('2rem');
+            // }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        // Run once to set initial state
+        handleScroll();
+        console.log(scrollY, shoppingpy);
 
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
@@ -60,22 +62,23 @@ const Hero = () => {
                 </div>
 
                 <div className='w-full sm:w-[38%] lg:w-[40%] xl:w-[33%] rounded-[.5rem] flex flex-col h-[400px] md:h-[458px] lg:h-[600px] xl:h-[840px] cursor-pointer'>
-                    <div className={`flex flex-col justify-between h-${shoppingHeight} md:h-full bg-[#ffdb00] rounded-[.5rem] xl:pt-[4.6rem] transition-all ease-out duration-400`}>
-                        <a href='https://www.ikea.pr/puertorico/es/' target='_blank' className={`flex justify-between items-center outline-0 font-bold py-[${shoppingpy}] sm:py-[10rem] lg:py-[14rem] xl:py-[17rem] px-[1rem] xl:px-[3.2rem] transition-all ease-in-out duration-400`}>
-                            <span className='text-[25px] xl:text-[36px] tracking-tight'>Go shopping</span>
-                            <span className="w-[38px] lg:w-[40px] h-[38px] lg:h-[40px] flex items-center justify-center bg-black text-white text-[20px] rounded-full ml-2 cursor-pointer lg:mt-2 hover:bg-black/85 transition-all ease-in duration-200">
-                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" className="svelte-mkzi11 right rotate-180"><path fill="currentColor" fillRule="evenodd" clipRule="evenodd" d="M4,12l8,8,1.41-1.41L7.83,13H20V11H7.83l5.59-5.59L12,4Z"></path></svg>
-                            </span>
-                        </a>
-                        <button className='flex items-center border-t-[.0625rem] border-[#fffefb] rounded-b-[.5rem] min-h-[6.25rem] cursor-pointer hover:bg-white/60 transition-all ease-in duration-200'>
-                            <div className='px-[1.2rem] lg:px-[3.2rem] w-full flex justify-between items-center'>
-                                <span className="text-[16px]">
-                                    Store: <span className="font-bold">IKEA.pr</span> <span>(es)</span>
+                    {/* {mounted && ( */}
+                        <div className={`flex flex-col justify-between ${heightClass} md:h-full bg-[#ffdb00] rounded-[.5rem] xl:pt-[4.6rem] transition-all ease-out duration-400`}>
+                            <a href='https://www.ikea.pr/puertorico/es/' target='_blank' className={`flex justify-between items-center outline-0 font-bold ${paddingClass} sm:py-[10rem] lg:py-[14rem] xl:py-[17rem] px-[1rem] xl:px-[3.2rem] transition-all ease-in-out duration-400`}>
+                                <span className='text-[25px] xl:text-[36px] tracking-tight'>Go shopping</span>
+                                <span className="w-[38px] lg:w-[40px] h-[38px] lg:h-[40px] flex items-center justify-center bg-black text-white text-[20px] rounded-full ml-2 cursor-pointer lg:mt-2 hover:bg-black/85 transition-all ease-in duration-200">
+                                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" className="svelte-mkzi11 right rotate-180"><path fill="currentColor" fillRule="evenodd" clipRule="evenodd" d="M4,12l8,8,1.41-1.41L7.83,13H20V11H7.83l5.59-5.59L12,4Z"></path></svg>
                                 </span>
-                                <span className="chevron svelte-w1on6e"><svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="svelte-1qa1uiw use-transition up rotate-180"><path fillRule="evenodd" clipRule="evenodd" d="M16 1.38462L14.5455 0L8 6.23077L1.45455 0L0 1.38462L8 9L16 1.38462Z" fill="currentColor"></path></svg></span>
-                            </div>
-                        </button>
-                    </div>
+                            </a>
+                            <button className='flex items-center border-t-[.0625rem] border-[#fffefb] rounded-b-[.5rem] min-h-[6.25rem] cursor-pointer hover:bg-white/60 transition-all ease-in duration-200'>
+                                <div className='px-[1.2rem] lg:px-[3.2rem] w-full flex justify-between items-center'>
+                                    <span className="text-[16px]">
+                                        Store: <span className="font-bold">IKEA.pr</span> <span>(es)</span>
+                                    </span>
+                                    <span className="chevron svelte-w1on6e"><svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="svelte-1qa1uiw use-transition up rotate-180"><path fillRule="evenodd" clipRule="evenodd" d="M16 1.38462L14.5455 0L8 6.23077L1.45455 0L0 1.38462L8 9L16 1.38462Z" fill="currentColor"></path></svg></span>
+                                </div>
+                            </button>
+                        </div>
                 </div>
 
             </div>
