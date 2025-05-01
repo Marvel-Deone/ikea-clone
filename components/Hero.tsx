@@ -18,10 +18,6 @@ const Hero = () => {
 
                 setShoppingpy(true);
             }
-            // else {
-            //     setShoppingHeight('200px');
-            //     setShoppingpy('2rem');
-            // }
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -42,7 +38,7 @@ const Hero = () => {
     return (
         <section className='common-padding-x'>
             <div className='hero flex flex-col md:flex-row gap-5 xl:gap-7 w-full screen-max-width'>
-                <div className='w-full relative sm:w-[65%] lg:w-[60%] xl:w-[65%] h-[394px] md:h-[458px] lg:h-[600px] xl:h-[840px] rounded-[.5rem] overflow-hidden group cursor-pointer'>
+                <a href="https://www.ikea.com/global/en/stories/life-at-home/life-at-home-report-2024-250325/" target="_blank" className='w-full relative sm:w-[65%] lg:w-[60%] xl:w-[65%] h-[394px] md:h-[458px] lg:h-[600px] xl:h-[840px] rounded-[.5rem] overflow-hidden group cursor-pointer'>
                     <div className='absolute'>
                         <img src="/images/hero_1.webp" alt="hero" className='w-full h-full object-cover' />
                     </div>
@@ -59,7 +55,7 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
                 <div className='w-full sm:w-[38%] lg:w-[40%] xl:w-[33%] rounded-[.5rem] flex flex-col h-[400px] md:h-[458px] lg:h-[600px] xl:h-[840px] cursor-pointer'>
                     {/* {mounted && ( */}
