@@ -48,7 +48,7 @@ const BustingSleep = () => {
                 {/* First Sec */}
                 <div className="w-full flex flex-col md:flex-row gap-5 xl:gap-7">
                     {/* 1/2 */}
-                    <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+                    <a href='https://www.ikea.com/global/en/stories/design/mattress-myths-250212/' target='_blank' className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
                         <video
                             playsInline
                             muted
@@ -66,15 +66,15 @@ const BustingSleep = () => {
                             <div className='absolute inset-0 bg-black/60 blur-2xl'></div>
                             {/* Arrow */}
                             <div className='absolute bottom-0 opacity-[190%] cursor-pointer z-[1000] flex items-center pb-2'>
-                                <a href='https://www.ikea.com/global/en/stories/design/mattress-myths-250212/' target='_blank' id="hero-arrow" className="mt-2 translate-x-[-5rem] group-hover:px-2 group-hover:translate-0 transition-all duration-400 ease-in-out">
+                                <div id="hero-arrow" className="mt-2 translate-x-[-5rem] group-hover:px-2 group-hover:translate-0 transition-all duration-400 ease-in-out">
                                     <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" className="svelte-mkzi11 left rotate-[180deg]"><path fill="currentColor" fillRule="evenodd" clipRule="evenodd" d="M4,12l8,8,1.41-1.41L7.83,13H20V11H7.83l5.59-5.59L12,4Z"></path></svg>
-                                </a>
+                                </div>
                                 {/* Title */}
                                 <div className="flex justify-start lg:gap-1 xl:gap-2 pb-1 lg:pb-2 transition-all duration-400 ease-out pr-4 lg:pr-7">
-                                    <a href='https://www.ikea.com/global/en/stories/design/mattress-myths-250212/' target='_blank' className="w-full flex flex-col translate-x-[-2rem] lg:translate-x-[-2.5rem] xl:translate-x-[-2rem] group-hover:translate-0 transition-all duration-400 ease-out">
+                                    <div className="w-full flex flex-col translate-x-[-2rem] lg:translate-x-[-2.5rem] xl:translate-x-[-2rem] group-hover:translate-0 transition-all duration-400 ease-out">
                                         <span className='font-medium text-[12px] md:text-[1rem]'>Sweet dreams</span>
                                         <h2 className='text-[20px] md:text-[25px] xl:text-[36px] font-bold sm:-mt-1 lg:-mt-2 leading-8 xl:leading-11'>Busting the myths about mattresses </h2>
-                                    </a>
+                                    </div>
                                     {/* Play/Pause btn */}
                                     <button onClick={() => toggleVideoPlayback(0)} className="w-[38px] lg:w-[40px] h-[38px] lg:h-[40px] p-7 lg:p-7 flex items-center justify-center bg-black text-white text-[20px] rounded-full ml-2 cursor-pointer lg:mt-2 hover:bg-black/85 transition-all ease-in duration-200 md:translate-y-[1rem] xl:translate-y-[2rem]">
                                         {isPlaying[0] ?
@@ -87,7 +87,7 @@ const BustingSleep = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                     {/* 2/2 */}
                     <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
                         <div className='absolute'>
@@ -109,7 +109,7 @@ const BustingSleep = () => {
                     </div>
                 </div>
                 {/* Second sec */}
-                <div className='w-full relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+                <a href='https://www.ikea.com/global/en/stories/life-at-home/ikea-sleep-report-2025-250210/' target='_blank' className='w-full relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
                     <div className='absolute'>
                         <img src="/images/nytilverkad_collection.avif" alt="story behind collections" className='w-full h-[393px] md:h-full object-cover' />
                     </div>
@@ -126,11 +126,11 @@ const BustingSleep = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
                 {/* Third Sec */}
                 <div className="w-full flex flex-col md:flex-row gap-5 xl:gap-7">
                     {/* 1/2 */}
-                    <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+                    <a href='https://www.ikea.com/global/en/stories/ikea-around-the-world/co-workers-20-plus-club-250127/' target='_blank' className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
                         <video
                             playsInline
                             muted
@@ -148,15 +148,15 @@ const BustingSleep = () => {
                             <div className='absolute inset-0 bg-black/60 blur-2xl'></div>
                             <div className='absolute bottom-0 opacity-[190%] cursor-pointer z-[1000] flex items-center pb-2 w-full'>
                                 {/* Arrow */}
-                                <a href='https://www.ikea.com/global/en/stories/design/mattress-myths-250212/' target='_blank' id="hero-arrow" className="mt-2 translate-x-[-5rem] group-hover:px-2 group-hover:translate-0 transition-all duration-400 ease-in-out">
+                                <span id="hero-arrow" className="mt-2 translate-x-[-5rem] group-hover:px-2 group-hover:translate-0 transition-all duration-400 ease-in-out">
                                     <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" className="svelte-mkzi11 left rotate-[180deg]"><path fill="currentColor" fillRule="evenodd" clipRule="evenodd" d="M4,12l8,8,1.41-1.41L7.83,13H20V11H7.83l5.59-5.59L12,4Z"></path></svg>
-                                </a>
+                                </span>
                                 {/* Title */}
                                 <div className="w-full  flex justify-start lg:gap-1 xl:gap-2 pb-1 lg:pb-2 transition-all duration-400 ease-out pr-4 lg:pr-7">
-                                    <a href='https://www.ikea.com/global/en/stories/design/mattress-myths-250212/' target='_blank' className="w-full flex flex-col translate-x-[-2rem] lg:translate-x-[-2.5rem] xl:translate-x-[-2rem] group-hover:translate-0 transition-all duration-400 ease-out">
+                                    <div className="w-full flex flex-col translate-x-[-2rem] lg:translate-x-[-2.5rem] xl:translate-x-[-2rem] group-hover:translate-0 transition-all duration-400 ease-out">
                                         <span className='font-medium text-[12px] md:text-[1rem]'>Meet our co-workers</span>
                                         <h2 className='text-[20px] md:text-[25px] xl:text-[36px] font-bold sm:-mt-1 lg:-mt-2 leading-8 xl:leading-11 max-w-[16ch]'>20+ years at IKEA and counting </h2>
-                                    </a>
+                                    </div>
                                     {/* Play/Pause btn */}
                                     <button onClick={() => toggleVideoPlayback(1)} className="w-[38px] lg:w-[40px] h-[38px] lg:h-[40px] p-7 lg:p-7 flex items-center justify-center bg-white text-black text-[20px] rounded-full ml-2 cursor-pointer lg:mt-2 hover:bg-white/85 transition-all ease-in duration-200 md:translate-y-[1rem] xl:translate-y-[2rem]">
                                         {isPlaying[1] ?
@@ -169,9 +169,9 @@ const BustingSleep = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                     {/* 2/2 */}
-                    <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+                    <a href='https://www.ikea.com/global/en/stories/our-roots/1965-time-capsule-250117/' target='_blank' className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
                         <img
                             src="/images/peek_at_home.avif"
                             alt="story behind collections"
@@ -193,10 +193,10 @@ const BustingSleep = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 {/* Fourth sec */}
-                <div className='w-full relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+                <a href='https://www.ikea.com/global/en/stories/ideas-inspiration/shared-toddler-bedroom-for-sleep-play-241119/' target='_blank' className='w-full relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
                     <div className='absolute'>
                         <img src="/images/toddler_room.webp" alt="story behind collections" className='w-full h-[393px] md:h-full object-cover' />
                     </div>
@@ -213,11 +213,11 @@ const BustingSleep = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
                 {/* Fifth Sec */}
                 <div className="w-full flex flex-col md:flex-row gap-5 xl:gap-7">
                     {/* 1/2 */}
-                    <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+                    <a href='https://www.ikea.com/global/en/stories/design/ikea-home-smart-for-better-sleep-241210/' target='_blank' className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
                         <img
                             src="/images/improve_sleep_space.avif"
                             alt="story behind collections"
@@ -239,9 +239,9 @@ const BustingSleep = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                     {/* 2/2 */}
-                    <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px] bg-[#ebebeb]'>
+                    <a href='https://www.ikea.com/global/en/stories/ikea-around-the-world/yearbook-2024-241223/' target='_blank' className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px] bg-[#ebebeb]'>
                         <img
                             src="/images/Yearbook_Poster_Desktop.avif"
                             alt="story behind collections"
@@ -263,12 +263,12 @@ const BustingSleep = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 {/* Sixth Sec */}
                 <div className="w-full flex flex-col md:flex-row gap-5 xl:gap-7">
                     {/* 1/2 */}
-                    <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+                    <a href='https://www.ikea.com/global/en/stories/design/glamberget-series-241204/' target='_blank' className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
                         <div className='absolute w-full'>
                             <img src="/images/smart_simple_pieces.avif" alt="story behind collections" className='w-full h-full xl:h-[686px] object-cover' />
                         </div>
@@ -285,9 +285,9 @@ const BustingSleep = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                     {/* 2/2 */}
-                    <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+                    <a href='https://www.ikea.com/global/en/stories/design/skogsduva-collection-childrens-toys-240923/' target='_blank' className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
                         <div className='absolute h-full'>
                             <img src="/images/swedish_forest.webp" alt="story behind collections" className='w-full h-full object-cover' />
                         </div>
@@ -304,10 +304,10 @@ const BustingSleep = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                  {/* Seventh sec */}
-                  <div className='w-full relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+                {/* Seventh sec */}
+                <a href='https://www.ikea.com/global/en/stories/ideas-inspiration/style-swap-241127/' target='_blank' className='w-full relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
                     <div className='absolute'>
                         <img src="/images/one_bedroom.webp" alt="story behind collections" className='w-full h-[393px] md:h-full object-cover' />
                     </div>
@@ -324,11 +324,11 @@ const BustingSleep = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                    {/* eighth Sec */}
-                    <div className="w-full flex flex-col md:flex-row gap-5 xl:gap-7">
+                </a>
+                {/* eighth Sec */}
+                <div className="w-full flex flex-col md:flex-row gap-5 xl:gap-7">
                     {/* 1/2 */}
-                    <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+                    <a href='https://www.ikea.com/global/en/stories/sustainability/cotton-bedlinen-journey-and-quiz-241106/' target='_blank' className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
                         <div className='absolute w-full'>
                             <img src="/images/fantastic_texile.avif" alt="story behind collections" className='w-full h-full xl:h-[686px] object-cover' />
                         </div>
@@ -345,9 +345,9 @@ const BustingSleep = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                     {/* 2/2 */}
-                    <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+                    <a href='https://www.ikea.com/global/en/stories/ideas-inspiration/rustic-yellow-and-red-style-report-241113/' target='_blank' className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
                         <img
                             src="/images/snug_rustic.avif"
                             alt="story behind collections"
@@ -364,15 +364,14 @@ const BustingSleep = () => {
                                 <div id="hero-text" className="flex flex-col justify-start gap-1 xl:gap-2 pb-1 lg:pb-2 transition-all duration-400 ease-out translate-x-[-2rem] lg:translate-x-[-2.5rem] xl:translate-x-[-2rem] group-hover:translate-0">
                                     <span className='font-medium text-[12px] md:text-[1rem]'>Style report</span>
                                     <h2 className='text-[20px] md:text-[25px] xl:text-[36px] font-bold sm:-mt-1 lg:-mt-2 leading-8 xl:leading-11 max-w-[20ch]'>
-                                    Snug and rustic
+                                        Snug and rustic
                                     </h2>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
-            {/* <br /><br /><br /> */}
         </section>
     )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 const Artistic = () => {
     return (
         <section className='common-padding-y'>
-            <div className="flex flex-col md:flex-row gap-[1.35rem] md:gap-5 xl:gap-20 w-full screen-max-width relative overflow-hidden bg-[#D7C7A2] h-[409px] md:h-[399px] lg:h-[532px] xl:h-[720px] px-10 md:px-0 py-[5rem] md:py-[2rem] md:rounded-[.5rem] cursor-pointer group">
+            <a href='https://www.ikea.com/global/en/stories/ideas-inspiration/spring-painterly-patterns-bedroom-style-report-250305/' target='_blank' className="flex flex-col md:flex-row gap-[1.35rem] md:gap-5 xl:gap-20 w-full screen-max-width relative overflow-hidden bg-[#D7C7A2] h-[409px] md:h-[399px] lg:h-[532px] xl:h-[720px] px-10 md:px-0 py-[5rem] md:py-[2rem] md:rounded-[.5rem] cursor-pointer group">
                 {/* <div className="flex gap-10"> */}
                     <div className='w-full md:w-[32%] xl:w-[26%] opacity-[190%] cursor-pointer md:flex justify-center items-center'>
                         <div id="hero-arrow" className="mt-[-5rem] translate-x-[-6rem] group-hover:px-2 group-hover:pl-[3rem] group-hover:translate-0 transition-all duration-400 ease-in-out">
@@ -17,7 +17,7 @@ const Artistic = () => {
                     <div className="w-full md:w-[72%] xl:w-[78%] flex-1 flex justify-end items-center pb-20 md:pr-10 xl:pr-14 md:py-24 md:mt-[5rem] lg:mt-[4rem]">
                         <img src="/images/artistic_inspiration.avif" alt="story behind collections" className='h-[212px] md:h-[291px] lg:h-[389px] xl:h-[540px] rounded-[.5rem] mb-20' />
                     </div>
-            </div>
+            </a>
         </section>
     )
 }

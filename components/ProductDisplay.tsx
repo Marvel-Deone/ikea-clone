@@ -5,7 +5,7 @@ const ProductDisplay = () => {
         {/* First Sec */}
         <div className="w-full flex flex-col md:flex-row gap-5 xl:gap-7">
           {/* 1/2 */}
-          <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+          <a href="https://www.ikea.pr/puertorico/es/" target="_blank" className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
             <div className='absolute'>
               <img src="/images/story_behind_collection.jpg" alt="story behind collections" className='w-full h-full xl:h-[686px] object-cover' />
             </div>
@@ -22,9 +22,9 @@ const ProductDisplay = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </a>
           {/* 2/2 */}
-          <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+          <a href="https://www.ikea.com/global/en/stories/design/stockholm-2025-collection-250407/" target="_blank" className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
             <div className='absolute'>
               <img src="/images/tommorow_collectables.webp" alt="story behind collections" className='w-full h-[480px] xl:h-[686px] object-cover' />
             </div>
@@ -41,12 +41,12 @@ const ProductDisplay = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         {/* Second Sec */}
         <div className="w-full flex flex-col md:flex-row gap-5 xl:gap-7">
           {/* 1/2 */}
-          <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+          <a href="https://www.ikea.com/global/en/stories/ideas-inspiration/a-bathroom-soaked-in-glamour-250320/" target="_blank" className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
             <div className='absolute'>
               <img src="/images/bathroom.webp" alt="story behind collections" className='w-full h-full xl:h-[686px] object-cover' />
             </div>
@@ -63,9 +63,9 @@ const ProductDisplay = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </a>
           {/* 2/2 */}
-          <div className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+          <a href="https://www.ikea.com/global/en/stories/ideas-inspiration/a-bathroom-soaked-in-glamour-250320/" target="_blank" className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
             <div className='absolute'>
               <img src="/images/natural_beauty_sweden.avif" alt="story behind collections" className='w-full h-full object-cover' />
             </div>
@@ -82,7 +82,7 @@ const ProductDisplay = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>
