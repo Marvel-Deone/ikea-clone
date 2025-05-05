@@ -217,11 +217,11 @@ const BustingSleep = () => {
                 {/* Fifth Sec */}
                 <div className="w-full flex flex-col md:flex-row gap-5 xl:gap-7">
                     {/* 1/2 */}
-                    <a href='https://www.ikea.com/global/en/stories/design/ikea-home-smart-for-better-sleep-241210/' target='_blank' className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px]'>
+                    <a href='https://www.ikea.com/global/en/stories/design/ikea-home-smart-for-better-sleep-241210/' target='_blank' className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[392px] md:h-[378px] lg:h-[476px] xl:h-[686px]'>
                         <img
                             src="/images/improve_sleep_space.avif"
                             alt="story behind collections"
-                            className="absolute inset-0 w-full h-full object-cover object-top scale-[1.2]"
+                            className="absolute inset-0 w-full h-full object-cover object-top scale-[1.2] h-[]"
                         />
 
                         {/* Text Overlay */}
@@ -241,11 +241,11 @@ const BustingSleep = () => {
                         </div>
                     </a>
                     {/* 2/2 */}
-                    <a href='https://www.ikea.com/global/en/stories/ikea-around-the-world/yearbook-2024-241223/' target='_blank' className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[348px] lg:h-[476px] xl:h-[686px] bg-[#ebebeb]'>
+                    <a href='https://www.ikea.com/global/en/stories/ikea-around-the-world/yearbook-2024-241223/' target='_blank' className='w-full md:w-1/2 relative rounded-[.5rem] overflow-hidden group cursor-pointer h-[393px] md:h-[382px] lg:h-[476px] xl:h-[686px] bg-[#ebebeb]'>
                         <img
                             src="/images/Yearbook_Poster_Desktop.avif"
                             alt="story behind collections"
-                            className="absolute inset-0 w-full h-full object-cover object-top scale-[1.2]"
+                            className="absolute inset-0 w-full h-full object-cover object-top scale-[1rem] lg:scale-[1.2]"
                         />
 
                         {/* Text Overlay */}
@@ -255,7 +255,7 @@ const BustingSleep = () => {
                                 <div id="hero-arrow" className="mt-2 translate-x-[-5rem] group-hover:px-2 group-hover:translate-0 transition-all duration-400 ease-in-out">
                                     <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" className="svelte-mkzi11 left rotate-[180deg]"><path fill="currentColor" fillRule="evenodd" clipRule="evenodd" d="M4,12l8,8,1.41-1.41L7.83,13H20V11H7.83l5.59-5.59L12,4Z"></path></svg>
                                 </div>
-                                <div id="hero-text" className="flex flex-col justify-start gap-1 xl:gap-2 pb-1 lg:pb-2 transition-all duration-400 ease-out translate-x-[-2rem] lg:translate-x-[-2.5rem] xl:translate-x-[-2rem] group-hover:translate-0">
+                                <div id="hero-text" className="flex flex-col justify-start gap-1 xl:gap-2 pb-1 lg:pb-2 transition-all duration-400 ease-out transform-y-[4rem] translate-x-[-2rem] lg:translate-x-[-2.5rem] xl:translate-x-[-2rem] group-hover:translate-0">
                                     <span className='font-medium text-[12px] md:text-[1rem]'>The 2024 IKEA Yearbook</span>
                                     <h2 className='text-[20px] md:text-[25px] xl:text-[51px] font-bold sm:-mt-1 lg:-mt-2 leading-8 xl:leading-11 max-w-[20ch]'>
                                         What a year!
@@ -281,7 +281,7 @@ const BustingSleep = () => {
                                 </div>
                                 <div id="hero-text" className="xl:w-[550px] flex flex-col justify-start gap-1 xl:gap-2 pb-1 lg:pb-2 transition-all duration-400 ease-out translate-x-[-2rem] lg:translate-x-[-2.5rem] xl:translate-x-[-2rem] group-hover:translate-0">
                                     <span className='font-medium text-[12px] md:text-[1rem]'>The GLAMBERGET series</span>
-                                    <h2 className='text-[20px] md:text-[25px] xl:text-[36px] font-bold sm:-mt-1 lg:-mt-2 leading-7 xl:leading-11 max-w-[24ch]'>Smart, simple pieces in pine </h2>
+                                    <h2 className='text-[20px] md:text-[25px] xl:text-[36px] font-bold sm:-mt-1 lg:-mt-2 leading-7 xl:leading-11 max-w-[25ch] md:max-w-[24ch]'>Smart, simple pieces in pine </h2>
                                 </div>
                             </div>
                         </div>
@@ -300,7 +300,7 @@ const BustingSleep = () => {
                                 </div>
                                 <div id="hero-text" className="xl:w-[550px] flex flex-col justify-start gap-1 xl:gap-2 pb-1 lg:pb-2 transition-all duration-400 ease-out translate-x-[-2rem] lg:translate-x-[-2.5rem] xl:translate-x-[-2rem] group-hover:translate-0">
                                     <span className='font-medium text-[12px] md:text-[1rem]'>The SKOGSDUVA collection</span>
-                                    <h2 className='text-[20px] md:text-[25px] xl:text-[36px] font-bold sm:-mt-1 lg:-mt-2 leading-7 xl:leading-11 max-w-[20ch]'>A Swedish forest adventure! </h2>
+                                    <h2 className='text-[20px] md:text-[25px] xl:text-[36px] font-bold sm:-mt-1 lg:-mt-2 leading-7 xl:leading-11 max-w-[25ch] md:max-w-[20ch]'>A Swedish forest adventure! </h2>
                                 </div>
                             </div>
                         </div>
@@ -320,7 +320,7 @@ const BustingSleep = () => {
                             </div>
                             <div id="hero-text" className="flex flex-col justify-start gap-1 xl:gap-2 pb-1 lg:pb-2 transition-all duration-400 ease-out translate-x-[-2rem]  lg:translate-x-[-2.5rem] xl:translate-x-[-2rem] group-hover:translate-0">
                                 <span className='font-medium text-[12px] md:text-[1rem]'>Swap the style</span>
-                                <h2 className='text-[20px] md:text-[25px] xl:text-[36px] font-bold sm:-mt-1 lg:-mt-2 leading-7 xl:leading-11'>One bedroom, two very different looks </h2>
+                                <h2 className='text-[20px] md:text-[25px] xl:text-[36px] font-bold sm:-mt-1 lg:-mt-2 leading-7 xl:leading-11 max-w-[22ch] md:max-w-full'>One bedroom, two very different looks </h2>
                             </div>
                         </div>
                     </div>
