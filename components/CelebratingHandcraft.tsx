@@ -2,7 +2,7 @@ import React from 'react'
 
 const CelebratingHandcraft = () => {
     return (
-        <section className='common-padding-y mb-2'>
+        <section className='common-spacing mb-2'>
         <a href='https://www.ikea.com/global/en/stories/ideas-inspiration/spring-painterly-patterns-bedroom-style-report-250305/' target='_blank' className="flex flex-col md:flex-row gap-[1.35rem] md:gap-5 xl:gap-20 w-full screen-max-width relative overflow-hidden bg-[#e08db6] h-[409px] md:h-[399px] lg:h-[532px] xl:h-[720px] px-10 md:px-0 py-[5rem] md:py-[2rem] md:rounded-[.5rem] cursor-pointer group">
             {/* <div className="flex gap-10"> */}
                 <div className='w-full md:w-[32%] xl:w-[26%] opacity-[190%] cursor-pointer md:flex justify-center items-center'>
